@@ -1,4 +1,4 @@
-import classes from 'Card.css';
+import classes from 'src/components/UI/Card.module.css';
 
 const Card = ({children}) => {
  return (
