@@ -1,0 +1,24 @@
+.search{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.search-input label,.search-input input{
+    display: block;
+    text-align: center;
+}
+
+.search-input input{
+    font: inherit;
+    margin-left: 125px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 200px;
+}
+
+.search-input input:focus{
+    outline: none;
+    border-color: #ff2058 ;
+}
