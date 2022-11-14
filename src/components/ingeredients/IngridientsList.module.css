@@ -1,0 +1,41 @@
+.ingredient-list {
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+.ingredient-list h2 {
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 15px;
+    width: 500px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.ingredient-list ul {
+    margin: 0;
+}
+
+.ingredient-list ul :first-child {
+    margin-top: 0;
+}
+
+.ingredient-list li {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    width: 500px;
+    margin: 20px 0 0 470px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.ingredient-list li > *{
+    width: 33.3%;
+}
+
+.ingredient-list li button{
+    margin-right: 10px;
+}
+

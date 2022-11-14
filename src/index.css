@@ -21,3 +21,7 @@ button{
 button:hover,button:focus{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
 }
+
+li{
+  list-style-type: none;
+}
